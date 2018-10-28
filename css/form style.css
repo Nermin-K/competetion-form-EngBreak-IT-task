@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a001f;
+}
+@font-face {
+    font-family: SourceSansProBold;
+    src: url(../fonts/SourceSansPro-Bold.otf);
+}
+@font-face {
+    font-family: SourceSansProRegler;
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: SourceSansProSemiBold;
+    src: url(../fonts/SourceSansPro-Semibold.otf);
+}
+.nav{
+    width: 90%;
+    height: 80px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nav img{
+    width: 200;
+    height: 70px;
+}
+
+.nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+}
+
+.call-left{
+   float: left;
+}
+
+.call-right{
+    float: right;
+}
+
+#container{
+    text-align: center;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.intro{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.team_title{ 
+    font-size: 2em;
+    letter-spacing: 20px;
+}
+.reg_title{ font-size: 3.5em;}
+.w{
+    color: #fff;
+    font-family: SourceSansProBold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.c{
+    color: #1bc1db;
+    font-family: SourceSansProBold;
+    text-transform: uppercase;
+}
+.g{
+    color: #bbbbbb;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+hr{
+    color: #f7f7f7;
+    width: 70%;
+    margin: 10px 0 20px 0;
+}
+.c-word{
+    font-size: 1.5em;
+}
+.g-word{
+    font-family: SourceSansProRegler;
+}
+.member{
+    display: inline-block;
+    float: left;
+    background-color: #fff;
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form3{
+    width:46%;
+}
+.f3{
+    margin-right: 180px;
+}
+.feedback-input{
+    background-color: #f7f7f7;
+    color: #bbbbbb;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    font-family: SourceSansProSemiBold;
+}
+
+.files{
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+}
+.image-upload{
+    display: inline-block;
+    width:45%;
+    margin: 7px;
+}
+.image-upload img{
+    width: 60px;
+    height: 60px;
+}
+.image-upload p{
+    font-family: SourceSansProSemiBold;
+    font-size: 0.8em;
+}
+.image-upload, .image-upload img, .image-upload p:hover{
+    cursor:pointer;
+}
+.image-upload > input
+{
+    display: none;
+}
+.btn{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #0078fe;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    display: inline-block;
+    font-family: SourceSansProBold;
+    width: 90%;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #99c9ff;
+    color: #8c8c8c;
+}
+
+.team{
+    display: inline-block;
+    width: 97%;
+    margin-bottom: 50px;
+}
+.team p{
+    text-align: left;
+}
+.team hr{
+    width: 17%;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+.center input, .center select{
+    display: inline-block;
+    width:25%;
+    padding: 15px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+#first, #third{
+    margin-left: -40px;
+}
+option{
+
+color: #0078fe;
+}
+
+input, select{
+    background: transparent;
+            border-top: transparent !important;
+            border-left: transparent !important;
+            border-right: transparent !important;
+            border-bottom: 0px solid !important;
+            font-weight: 200;
+            color: #0a001f;
+            padding-left: 0;
+}

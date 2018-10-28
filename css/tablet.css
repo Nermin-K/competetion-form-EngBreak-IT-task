@@ -1,0 +1,11 @@
+@media only screen and (min-width: 481px) and (max-width: 1024px){
+    .member{
+    width: 40%;
+    margin: 10px 5%;
+}
+	.team{
+    display: inline-block;
+    width: 97%;
+    margin:20px 20px 50px;
+}
+}
